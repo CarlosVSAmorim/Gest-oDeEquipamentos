@@ -1,6 +1,4 @@
-﻿using GestãoDeEquipamentos;
-
-namespace GestãoDeEquipamentos
+﻿namespace GestãoDeEquipamentos
 {
     public class ServicoEquipamento
     {

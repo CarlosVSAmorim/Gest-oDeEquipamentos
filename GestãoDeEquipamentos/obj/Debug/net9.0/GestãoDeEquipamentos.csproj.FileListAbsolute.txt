@@ -12,3 +12,4 @@ C:\Users\Carlos\RiderProjects\GestãoDeEquipamentos\GestãoDeEquipamentos\obj\De
 C:\Users\Carlos\RiderProjects\GestãoDeEquipamentos\GestãoDeEquipamentos\obj\Debug\net9.0\GestãoDeEquipamentos.pdb
 C:\Users\Carlos\RiderProjects\GestãoDeEquipamentos\GestãoDeEquipamentos\obj\Debug\net9.0\GestãoDeEquipamentos.genruntimeconfig.cache
 C:\Users\Carlos\RiderProjects\GestãoDeEquipamentos\GestãoDeEquipamentos\obj\Debug\net9.0\ref\GestãoDeEquipamentos.dll
+C:\Users\Carlos\RiderProjects\GestãoDeEquipamentos\GestãoDeEquipamentos\obj\Debug\net9.0\GestãoDeEquipamentos.sourcelink.json
