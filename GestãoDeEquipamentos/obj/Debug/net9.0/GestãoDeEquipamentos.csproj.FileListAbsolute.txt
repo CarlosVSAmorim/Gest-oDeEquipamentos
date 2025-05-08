@@ -1,0 +1,14 @@
+C:\Users\Carlos\RiderProjects\GestãoDeEquipamentos\GestãoDeEquipamentos\bin\Debug\net9.0\GestãoDeEquipamentos.exe
+C:\Users\Carlos\RiderProjects\GestãoDeEquipamentos\GestãoDeEquipamentos\bin\Debug\net9.0\GestãoDeEquipamentos.deps.json
+C:\Users\Carlos\RiderProjects\GestãoDeEquipamentos\GestãoDeEquipamentos\bin\Debug\net9.0\GestãoDeEquipamentos.runtimeconfig.json
+C:\Users\Carlos\RiderProjects\GestãoDeEquipamentos\GestãoDeEquipamentos\bin\Debug\net9.0\GestãoDeEquipamentos.dll
+C:\Users\Carlos\RiderProjects\GestãoDeEquipamentos\GestãoDeEquipamentos\bin\Debug\net9.0\GestãoDeEquipamentos.pdb
+C:\Users\Carlos\RiderProjects\GestãoDeEquipamentos\GestãoDeEquipamentos\obj\Debug\net9.0\GestãoDeEquipamentos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlos\RiderProjects\GestãoDeEquipamentos\GestãoDeEquipamentos\obj\Debug\net9.0\GestãoDeEquipamentos.AssemblyInfoInputs.cache
+C:\Users\Carlos\RiderProjects\GestãoDeEquipamentos\GestãoDeEquipamentos\obj\Debug\net9.0\GestãoDeEquipamentos.AssemblyInfo.cs
+C:\Users\Carlos\RiderProjects\GestãoDeEquipamentos\GestãoDeEquipamentos\obj\Debug\net9.0\GestãoDeEquipamentos.csproj.CoreCompileInputs.cache
+C:\Users\Carlos\RiderProjects\GestãoDeEquipamentos\GestãoDeEquipamentos\obj\Debug\net9.0\GestãoDeEquipamentos.dll
+C:\Users\Carlos\RiderProjects\GestãoDeEquipamentos\GestãoDeEquipamentos\obj\Debug\net9.0\refint\GestãoDeEquipamentos.dll
+C:\Users\Carlos\RiderProjects\GestãoDeEquipamentos\GestãoDeEquipamentos\obj\Debug\net9.0\GestãoDeEquipamentos.pdb
+C:\Users\Carlos\RiderProjects\GestãoDeEquipamentos\GestãoDeEquipamentos\obj\Debug\net9.0\GestãoDeEquipamentos.genruntimeconfig.cache
+C:\Users\Carlos\RiderProjects\GestãoDeEquipamentos\GestãoDeEquipamentos\obj\Debug\net9.0\ref\GestãoDeEquipamentos.dll
