@@ -22,3 +22,5 @@ O projeto é dividido em várias classes, cada uma responsável por uma parte es
 - **ServicoEquipamento**: Gerencia as operações de adicionar, editar, excluir e listar equipamentos.
 - **ServicoChamado**: Gerencia as operações de adicionar, editar, excluir e listar chamados de manutenção.
 - **Menu**: Interface do console para interação com o usuário, permitindo o acesso às funcionalidades de cadastro, edição, listagem e exclusão de equipamentos e chamados.
+
+![Uso Do Projeto]([URL_do_GIF](https://imgur.com/bA0PDXl))
