@@ -2,37 +2,31 @@
 {
     public class ServicoEquipamento
     {
-        private readonly List<Equipamento> equipamentos = new();
-        private int proximoId = 1;
+        private readonly RepositorioEquipamento repositorio = new();
 
-        public void AdicionarEquipamento(Equipamento eq)
+        public void AdicionarEquipamento(Equipamento equipamento)
         {
-            eq.Id = proximoId++;
-            equipamentos.Add(eq);
+            repositorio.Adicionar(equipamento);
         }
 
-        public List<Equipamento> ObterTodos() => equipamentos;
+        public List<Equipamento> ObterTodos() => repositorio.ListarTodos();
 
-        public Equipamento? ObterPorId(int id) => equipamentos.FirstOrDefault(e => e.Id == id);
+        public Equipamento? ObterPorId(int id) => repositorio.ObterPorId(id);
 
         public bool AtualizarEquipamento(int id, Equipamento atualizado)
         {
-            var eq = ObterPorId(id);
-            if (eq == null) return false;
+            var existente = repositorio.ObterPorId(id);
+            if (existente == null) return false;
 
-            eq.Nome = atualizado.Nome;
-            eq.Preco = atualizado.Preco;
-            eq.NumeroSerie = atualizado.NumeroSerie;
-            eq.DataFabricacao = atualizado.DataFabricacao;
-            eq.Fabricante = atualizado.Fabricante;
+            atualizado.Id = id;
+            repositorio.Editar(id, atualizado);
             return true;
         }
 
         public bool RemoverEquipamento(int id)
         {
-            var eq = ObterPorId(id);
-            if (eq == null) return false;
-            equipamentos.Remove(eq);
+            if (repositorio.ObterPorId(id) == null) return false;
+            repositorio.Excluir(id);
             return true;
         }
     }

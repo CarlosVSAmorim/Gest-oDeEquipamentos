@@ -1,39 +1,34 @@
-﻿using GestãoDeEquipamentos;
-
-namespace GestãoDeEquipamentos
+﻿namespace GestãoDeEquipamentos
 {
     public class ServicoChamado
     {
-        private readonly List<ChamadoManutencao> chamados = new();
-        private int proximoId = 1;
+        private readonly RepositorioChamado repositorio = new();
 
         public void AdicionarChamado(ChamadoManutencao chamado)
         {
-            chamado.Id = proximoId++;
             chamado.DataAbertura = DateTime.Now;
-            chamados.Add(chamado);
+            repositorio.Adicionar(chamado);
         }
 
-        public List<ChamadoManutencao> ObterTodos() => chamados;
+        public List<ChamadoManutencao> ObterTodos() => repositorio.ListarTodos();
 
-        public ChamadoManutencao? ObterPorId(int id) => chamados.FirstOrDefault(c => c.Id == id);
+        public ChamadoManutencao? ObterPorId(int id) => repositorio.ObterPorId(id);
 
         public bool AtualizarChamado(int id, ChamadoManutencao atualizado)
         {
-            var chamado = ObterPorId(id);
-            if (chamado == null) return false;
+            var existente = repositorio.ObterPorId(id);
+            if (existente == null) return false;
 
-            chamado.Titulo = atualizado.Titulo;
-            chamado.Descricao = atualizado.Descricao;
-            chamado.Equipamento = atualizado.Equipamento;
+            atualizado.Id = id;
+            atualizado.DataAbertura = existente.DataAbertura; // manter a data original
+            repositorio.Editar(id, atualizado);
             return true;
         }
 
         public bool RemoverChamado(int id)
         {
-            var chamado = ObterPorId(id);
-            if (chamado == null) return false;
-            chamados.Remove(chamado);
+            if (repositorio.ObterPorId(id) == null) return false;
+            repositorio.Excluir(id);
             return true;
         }
     }
